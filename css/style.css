@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url("../images/bg.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #5c3d2e; 
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #5c3d2e;
+}
+
+.nav a {
+  text-decoration: none;
+  background-color: #f4a261;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #e76f51;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #5c3d2e;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  margin-top: auto;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 1rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+main h2 {
+  text-align: center;
+  color: #5c3d2e;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+form {
+   background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+form input {
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-color: #f4a261;
+  color: #5c3d2e;
+}
+
+form button {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.8rem 1.5rem;
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e76f51;
+}
+
+#ordersTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#ordersTable th {
+  background-color: #f4a261;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+#ordersTable td,
+#ordersTable th {
+  padding: 0.75rem;
+  border: 1px solid #e0cfcf;
+}
+
+#ordersTable td img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+#clearOrders {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.8rem 1.5rem;
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#clearOrders:hover {
+  background-color: #e76f51;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #fff5e1;
+  color: #5c3d2e;
+  padding: 1rem;
+  width: 220px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
